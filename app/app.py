@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 openai.api_key = os.getenv('open_ai_key')
 
-credentials_path = './google_credentials/flaskproject-422318-b98fc950e1ed.json'
+credentials_path = "google-cred"
 spreadsheet_id = "your spreadsheet id "
 
 sheet_manager = GoogleSheetsManager(credentials_path, spreadsheet_id)
